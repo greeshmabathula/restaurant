@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding: 0;
+    
+}
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),#009688), url('banner.jpg');
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width:100px;
+    position: absolute;
+    top:3%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px ;
+}
+.banner-text  h1{
+    font-size: 130px;
+
+
+
+}
+
+.banner-text p{ 
+    font-size:130px ;
+    font-style: italic ;
+    color: rgb(0, 0, 0);;
+
+}
+
+#menuBtn{
+    width: 50px;
+    height: 30px;
+    background: #009688;
+    text-align:center;
+    position: fixed;
+    right: 30px;
+    top:20px;
+    z-index: 3;
+    cursor: pointer;
+    background-color:(rgba(0,0,0,0.5),#009688);
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: (rgba(0,0,0,0.5),#009688); 
+
+}
+#feature{
+    width:100px;
+    padding: 70px 0;
+background-color:linear-gradient(rgba(0,0,0,0.5),#009688);
+}
+.title-text{
+    text-align:center;
+    padding-bottom:  70px 0;
+
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after {
+       content: '';
+       width:50px;
+       height:35px;
+       background: linear-gradient(#019587,#fff);
+       position: absolute;
+       top:-20px;
+       left:0;
+       font-size: 40px;
+       z-index: -1;
+       transform: rotate(10deg);
+       border-top-left-radius: 35px;
+       border-bottom-right-radius: 35px;
+
+}
+.title-text h1{
+     font-size: 50px;
+
+}
+.feature-box {
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align:center;
+    background:linear-gradient (rgba(0,0,0,0.5),#009688),url('Chicken_dumbriyani.jpg');
+    background-size: cover ;
+    background-position: center;
+
+}
+.feature-box p{
+    font-size:50px ;
+    font-style: oblique;
+    color: crimson;
+
+}
+.feature-box h
+.features h1{
+    flex-basis: 50%;
+    font-style: inherit;
+    color: blue;
+    left :0;
+
+
+}
+.features-img h1{
+    flex-basis: 30%;
+    margin:auto;
+    font-style: italic;
+    color: darkred;
+    right: 10px; 
+    
+
+
+
+
+}
+.features-img h3{
+    color:black;
+    font-size: 80px;
+}
+.features-img img{
+    width:50%;
+    height: 50%;
+}
+
+    
+    
+
+
+
+
+
+
